@@ -43,6 +43,14 @@ class FirstViewController: UIViewController{
     @IBAction func addItemButton(sender: UIButton) {
         itemsMgr.addItem(nameTextField.text, details: detailsTextField.text)
     }
+    
+    func displayAlert(){
+        let alert = UIAlertController(title: "EmptyName!", message: "you cannot save item without a name", preferredStyle: <#UIAlertControllerStyle#>)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: <#UIAlertActionStyle#>, handler: nil))
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+        
+    }
 
 }
 
