@@ -10,9 +10,19 @@ import UIKit
 
 class FirstViewController: UIViewController{
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        itemsTableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,7 +41,7 @@ class FirstViewController: UIViewController{
     }
     
     @IBAction func addItemButton(sender: UIButton) {
-        
+        itemsMgr.addItem(nameTextField.text, details: detailsTextField.text)
     }
 
 }
