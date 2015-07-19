@@ -15,12 +15,16 @@ struct item {
     var details = ""
 }
 
-class ItemManager : NSObject {
+class ItemsManager : NSObject {
     
     var items = [item]()
     
     func addItem(name: String, details: String){
         items.append(item(name: name, details: details))
         
+    }
+    
+    func count() -> Int{
+        return items.count
     }
 }
