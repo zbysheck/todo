@@ -14,6 +14,7 @@
 		264C9FA41B5BC9FA00FE30A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264C9FA31B5BC9FA00FE30A8 /* Images.xcassets */; };
 		264C9FA71B5BC9FA00FE30A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 264C9FA51B5BC9FA00FE30A8 /* LaunchScreen.xib */; };
 		264C9FB31B5BC9FA00FE30A8 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C9FB21B5BC9FA00FE30A8 /* ToDoListTests.swift */; };
+		264C9FBD1B5BCFD400FE30A8 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C9FBC1B5BCFD400FE30A8 /* ItemManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		264C9FAC1B5BC9FA00FE30A8 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		264C9FB11B5BC9FA00FE30A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		264C9FB21B5BC9FA00FE30A8 /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
+		264C9FBC1B5BCFD400FE30A8 /* ItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				264C9F9C1B5BC9FA00FE30A8 /* FirstViewController.swift */,
 				264C9F9E1B5BC9FA00FE30A8 /* SecondViewController.swift */,
 				264C9FA01B5BC9FA00FE30A8 /* Main.storyboard */,
+				264C9FBC1B5BCFD400FE30A8 /* ItemManager.swift */,
 				264C9FA31B5BC9FA00FE30A8 /* Images.xcassets */,
 				264C9FA51B5BC9FA00FE30A8 /* LaunchScreen.xib */,
 				264C9F981B5BC9FA00FE30A8 /* Supporting Files */,
@@ -217,6 +220,7 @@
 			files = (
 				264C9F9F1B5BC9FA00FE30A8 /* SecondViewController.swift in Sources */,
 				264C9F9B1B5BC9FA00FE30A8 /* AppDelegate.swift in Sources */,
+				264C9FBD1B5BCFD400FE30A8 /* ItemManager.swift in Sources */,
 				264C9F9D1B5BC9FA00FE30A8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
